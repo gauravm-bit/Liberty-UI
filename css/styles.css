@@ -18,4 +18,15 @@ h1{
      position: absolute;
      left: 67%; top: 2em;
   }
+  #search-icon{
+     font-size: 18px;
+     color:#8ba2b5;
+     position: relative; top: 7px;
+   }
+   #notification-bell{
+      font-size: 22px;
+      color: #1b2727;
+      position: relative;left: 220px; bottom: 16px;
+      cursor: pointer
+   }
  

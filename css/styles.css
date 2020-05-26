@@ -29,4 +29,13 @@ h1{
       position: relative;left: 220px; bottom: 16px;
       cursor: pointer;
    }
+   .notification-profile{
+      position : relative
+   }
+   .profile{
+      height: 30px;
+      width: 30px;
+      position: relative; bottom : 12px; left: 250px;
+      cursor: pointer;
+   }
  

@@ -39,15 +39,14 @@ h1{
       position: relative; bottom : 22px; left: 250px;
       cursor: pointer;
    }
- 
-   /* Add a black background color to the top navigation */
-
+   
+/* Add a black background color to the top navigation */
 .topnav {
+   position: sticky;
    background-color:#f9f9fc;
    overflow: hidden;
-   text-align: center;
    position: relative; left: 150px;
-
+   
  }
  
  /* Style the links inside the navigation bar */
@@ -59,7 +58,7 @@ h1{
    text-decoration: none;
    font-size: 12px;
    font-family: Arial, Helvetica, sans-serif;;
-     
+
  }
  
  /* Change the color of links on hover */
@@ -68,10 +67,12 @@ h1{
    color: #00004d;
  }
  
+.active{
+   background-color: #6666ff;  
+ } 
  /* Add a color to the active/current link */
- .topnav a.active {
-   background-color:linear-gradient(30deg, #464de4, #814eff);
-   color: #00004d;
+ .topnav a:active {
+   background-color: blue;
  }
 
  /* Customising navbar icons */
@@ -81,3 +82,15 @@ h1{
     color: #464de4;
     cursor: pointer;
  }
+
+
+ .sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
+.just-scroll{
+   height: 500px;
+   border: 1px black;
+} 
+

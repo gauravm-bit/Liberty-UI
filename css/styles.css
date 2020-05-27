@@ -106,21 +106,39 @@ h1{
    background-color: white;
 }
 
-
-#people-icon{
-   font-size: 60px;
+#middle-icon{
+   font-size: 40px;
    color:#464de4;
-   position: relative; top: 50px; left: 50px;
+   position: relative; top: 50px; left: 40px;
 }
 
-.secondbox {
-   border-left: 1px solid #8ba2b5;
-   height: 140px;
-   position: relative; left: 25%; bottom: 115px;
- }
-h4{
+.user-text{
    color: #223C61;
-   position: relative;bottom: 30px; left: 120px;
+   position: relative;bottom: 30px; left: 100px;
    font-family: Arial, Helvetica, sans-serif;;
    font-weight: lighter;
+   font-size: 15px;
 }
+
+.user-number{
+   color: #223C61;
+   font-size: 30px;
+   position: relative; left: 100px; bottom: 50px; 
+   font-family: Arial, Helvetica, sans-serif;;
+   font-weight: 200;
+}
+.secondbox {
+   border-left: 1px solid #8ba2b5;
+   height: 70px;
+   position: relative; left: 25%; bottom: 175px;
+ }
+ .thirdbox {
+   border-left: 1px solid #8ba2b5;
+   height: 140px;
+   position: relative;  left: 25%; bottom: 70px;
+ }
+ .fourthbox {
+   border-left: 1px solid #8ba2b5;
+   height: 140px;
+   position: relative;  left: 75%; bottom: 315px;
+ }

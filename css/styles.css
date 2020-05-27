@@ -90,6 +90,11 @@ h1{
    position: relative; top: 6px;
 }
 
+#profile-arrow{
+   font-size: 20px;
+   position: relative; left:245px;bottom: 28px;
+}
+
 
 
 

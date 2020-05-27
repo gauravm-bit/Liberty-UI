@@ -99,7 +99,7 @@ h1{
 
 /* first middle part of the elements */
 .middle-portion{
-   border: 1px solid #8ba2b5;
+   border:1px solid #d5dcec;
    width: 970px;
    height: 140px;
    position: relative; top: 200px; left: 155px;
@@ -128,17 +128,17 @@ h1{
    font-weight: 200;
 }
 .secondbox {
-   border-left: 1px solid #8ba2b5;
+   border-left: 1px solid #d5dcec;
    height: 70px;
    position: relative; left: 25%; bottom: 175px;
  }
  .thirdbox {
-   border-left: 1px solid #8ba2b5;
+   border-left: 1px solid #d5dcec;
    height: 140px;
    position: relative;  left: 25%; bottom: 70px;
  }
  .fourthbox {
-   border-left: 1px solid #8ba2b5;
+   border-left: 1px solid #d5dcec;
    height: 140px;
    position: relative;  left: 75%; bottom: 315px;
  }

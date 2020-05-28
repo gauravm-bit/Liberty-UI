@@ -174,6 +174,7 @@ h1{
    position: relative; left: 70%; bottom : 160%;
 }
 
+/* card 1 elements  */
 .avatar {
    vertical-align: middle;
    width: 92px;
@@ -182,10 +183,39 @@ h1{
    position: relative; left: 35%; top: 28px;
  }
  .avatar_text{
-   position: relative; top: 10%;
+   position: relative; top: 25px; left: 33%;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   color: #223C61;
 }
-
- .chart {
+.text-muted{
+   font-size: 12px;
+   position: relative; left:122px ; top: 15px;  
+   font-family: "Open Sans", sans-serif;  
+   color: rgba(0, 0, 0, 0.5);
+ } 
+ .description{
+    font-size: 15px;
+    color: #354168;
+    text-align: center;
+    position: relative; top: 12px;
+ }
+ .button {
+   background-color:#464de4; /* Green */
+   border: none;
+   color: white;
+   padding: 7px 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+   position: relative; left: 38%; top: 10px; 
+ }
+ 
+/* card 2 elements  */
+.chart {
     width: 100%;
     position: relative; top: 60%;
  }

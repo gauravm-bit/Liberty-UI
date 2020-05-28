@@ -213,6 +213,32 @@ h1{
    cursor: pointer;
    position: relative; left: 38%; top: 10px; 
  }
+ .post{
+   font-size: 1rem;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 300;
+   color: #354168;
+   position: relative; top:10px; left: 12%;
+ }
+
+ .followers{
+   font-size: 1rem;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 300;
+   color: #354168;
+   position: relative; bottom: 95px;left: 37%;
+ }
+
+ .likes{
+   font-size: 1rem;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 300;
+   color: #354168;
+   position: relative; bottom: 200px ;left: 70%;
+ }
+ .number{
+    font-size: 15px;
+ }
  
 /* card 2 elements  */
 .chart {

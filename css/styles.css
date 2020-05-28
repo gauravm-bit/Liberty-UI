@@ -97,6 +97,7 @@ h1{
    cursor: pointer;
 }
 
+/* starting of first component */
 /* first middle part of the elements */
 .middle-portion{
    border:1px solid #d5dcec;
@@ -142,3 +143,33 @@ h1{
    height: 140px;
    position: relative;  left: 75%; bottom: 315px;
  }
+
+/* starting of the third component */
+
+.middle-portion-one{
+   width: 970px;
+   height: 509px;
+   position: relative; top: 14em; left: 155px ;
+}
+.card1{
+   border:1px solid #d5dcec; 
+   width: 30%;
+   height: 80%;
+   background-color: white;
+}
+
+.card2{
+   border:1px solid #d5dcec; 
+   width: 30%;
+   height: 80%;
+   background-color: white;
+   position: relative; left: 35%; bottom : 80%;
+}
+
+.card3{
+   border:1px solid #d5dcec;
+   width: 30%;
+   height: 80%;
+   background-color: white;
+   position: relative; left: 70%; bottom : 160%;
+}

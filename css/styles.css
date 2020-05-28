@@ -173,3 +173,20 @@ h1{
    background-color: white;
    position: relative; left: 70%; bottom : 160%;
 }
+
+.avatar {
+   vertical-align: middle;
+   width: 92px;
+   height: 92px;
+   border-radius: 50%;
+   position: relative; left: 35%; top: 28px;
+ }
+ .avatar_text{
+   position: relative; top: 10%;
+}
+
+ .chart {
+    width: 100%;
+    position: relative; top: 60%;
+ }
+
